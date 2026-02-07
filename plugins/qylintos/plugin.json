@@ -1,0 +1,45 @@
+{
+  "id": "sfq.qylinthos.omega01",
+  "name": "QylinthosResonance",
+  "version": "1.0.0",
+  "author": "SentiFlow Systems",
+  "description": "Integrates QYLINTOS demon-phase coherence mechanics into SentiFlow.",
+  "extends": [
+    "tensor_hooks",
+    "emotion_engine",
+    "quantum_ops",
+    "working_memory"
+  ],
+  "entrypoint": "main:init_plugin",
+  "hooks": {
+    "on_tensor_create": true,
+    "on_forward_pass": true,
+    "on_backward_pass": true,
+    "on_cycle_tick": true
+  },
+  "provides": {
+    "ops": [
+      "qylin_resonance_mod",
+      "coherence_weighting",
+      "shadow_bias_transform"
+    ],
+    "qpu_gates": [
+      "infernal_phase_gate",
+      "shadow_shift_gate"
+    ],
+    "tensor_attributes": [
+      "phase_signature",
+      "shadow_phase_bias",
+      "resonance_energy",
+      "coherence_score"
+    ]
+  },
+  "permissions": {
+    "allow_tensor_mutation": true,
+    "allow_qpu_write": true,
+    "allow_filesystem_access": false,
+    "allow_network_access": false
+  },
+  "plugin_format": "SFQ/1.0",
+  "senti_min_version": "0.5"
+}
