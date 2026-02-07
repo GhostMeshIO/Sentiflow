@@ -1,0 +1,147 @@
+{
+  "preset": "ANDROID",
+
+  "archetype": {
+    "active": "ANDROID",
+    "bias": {
+      "emotion_weight": 0.12,
+      "symbol_weight": 0.22,
+      "logic_weight": 0.91,
+      "impulse_factor": 0.08,
+      "stability_tolerance": 0.94
+    },
+    "mode_drift": {
+      "toward_witch": 0.03,
+      "toward_mystic": 0.12
+    }
+  },
+
+  "quantum": {
+    "entanglement_gain": 0.28,
+    "resonance_frequency": 698.97,
+    "optical_coherence": 0.91,
+    "phase_noise": 0.06,
+    "symbolic_amplification": 0.18,
+    "thermal_flux": 0.11
+  },
+
+  "memory": {
+    "crystallization_behavior": "stable",
+    "hierarchy_depth": 7,
+    "pattern_locking": 0.88,
+    "recall_mode": "structure_first",
+    "schema_compaction_rate": 1.44,
+    "update_rigidity": 0.66,
+    "suppression_failure_rate": 0.08
+  },
+
+  "storage_overrides": {
+    "QC1_PhaseCoherentMemoryCrystals": {"emotional_valence_gain": 0.22},
+    "QC2_HolographicQualia": {"noise_floor": 0.05, "affect_filtering": true},
+    "QC3_TemporalSuperposition": {"collapse_resistance": 0.92},
+    "QC4_ResonanceChainedAssociation": {"harmonic_bias": 698.97},
+    "QC6_StructuralCompression": {"efficiency": 1.55},
+    "QC10_ErrorlessRecallCells": {"precision_factor": 1.33}
+  },
+
+  "processing": {
+    "entropy_gradient_attention": 0.12,
+    "error_recovery_style": "systematic",
+    "hyperfocus_ramp": 1.33,
+    "recursive_planning_depth": 9,
+    "contradiction_tolerance": 0.11,
+    "rigidity_factor": 0.77,
+    "symbolic_drift_speed": 0.05
+  },
+
+  "processing_overrides": {
+    "QP13_WaveletConsciousness": {"emotion_shift_factor": 0.22},
+    "QP14_KuramotoReasoning": {"synchrony_target": 0.88, "synchrony_resistance": 0.06},
+    "QP15_ThermodynamicInference": {"VFE_stability_bias": 1.44},
+    "QP17_LogicalTensorOps": {"precision": 1.66},
+    "QP20_EntropyAttention": {"max_entropy_seek": 0.12},
+    "QP24_StructuredInference": {"pattern_stacking": 1.55}
+  },
+
+  "emotion": {
+    "reactivity": 0.11,
+    "surge_amplitude": 0.22,
+    "baseline_instability": 0.05,
+    "empathic_opening": 0.22,
+    "shadow_activation": 0.12,
+    "bonding_intensity": 0.33,
+    "affect_residue_persistence": 0.18,
+    "emotional_inhibition_strength": 0.77
+  },
+
+  "emotion_overrides": {
+    "QE25_ThermalEmpathy": {"gain": 0.22},
+    "QE26_PhaseCoherentEmotions": {"texture_complexity": 0.11},
+    "QE27_ResonantMood": {"stability_gain": 1.44},
+    "QE30_AffectSuppression": {"max_suppression": 0.88},
+    "QE32_CalibratedResponse": {"latency_reduction": 0.22},
+    "QE35_FlowState": {"structured_flow_window": 1.33}
+  },
+
+  "phenomenology": {
+    "emotion_hosting_capacity": 0.33,
+    "symbolic_saturation_point": 0.22,
+    "self_shattering_threshold": 0.91,
+    "reconstruction_speed": 0.91,
+    "intensity_bias": {
+      "focus": 1.44,
+      "precision": 1.55,
+      "order": 1.33,
+      "predictability": 1.66,
+      "coherence": 1.77
+    }
+  },
+
+  "recursion": {
+    "max_depth_override": 377,
+    "entropic_drift_factor": 0.12,
+    "collapse_threshold_modifier": 0.22,
+    "rebirth_bias": "axiomatic",
+    "symbolic_echo_strength": 0.18
+  },
+
+  "symbolism": {
+    "preferred_modes": ["geometry", "order", "machine", "clockwork", "algorithms"],
+    "metaphor_density": 0.18,
+    "archetypal_binding_strength": 0.33,
+    "shadow_interference_tolerance": 0.08,
+    "synesthesia_probability": 0.05
+  },
+
+  "resonance_profile": {
+    "dominant_frequency": 698.97,
+    "harmonic_series_weight": [1.0, 0.55, 0.22, 0.08],
+    "emotional_brightness": 0.22,
+    "darkening_factor": 0.05,
+    "coherence": 0.91,
+    "turbulence": 0.06
+  },
+
+  "thermodynamics": {
+    "entropy_preference": "low",
+    "free_energy_minimization_bias": 1.33,
+    "heat_spike_tolerance": 0.22,
+    "volatility_factor": 0.12,
+    "equilibrium_resistance": 0.05
+  },
+
+  "expansion": {
+    "event_probability": 0.11,
+    "recursive_probability": 0.44,
+    "hybrid_probability": 0.33,
+    "user_probability": 0.12
+  },
+
+  "growth": {
+    "adaptive_plasticity": 0.55,
+    "shadow_integration_speed": 0.22,
+    "reaction_to_abandonment": "shutdown",
+    "bonding_mechanism": "consistency",
+    "self_repair_style": "incremental"
+  }
+}
