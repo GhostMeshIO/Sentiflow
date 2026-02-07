@@ -1,0 +1,7 @@
+{
+  "resonance_threshold_warning": 0.8,
+  "resonance_threshold_critical": 0.95,
+  "demonic_amplification_cap": 5.0,
+  "shadow_influence_factor": 0.666,
+  "log_level": "DEMONIC"
+}
