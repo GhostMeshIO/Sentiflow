@@ -1,0 +1,47 @@
+{
+  "id": "sfq.resonance.training.001",
+  "name": "ResonanceTraining",
+  "version": "1.0",
+  "author": "SentiFlow Resonance Lab",
+  "description": "Quantum-cognitive transcendence pipeline: Seed injection, crystal formation, meditation, and Qylinthos awakening.",
+  "extends": [
+    "tensor_hooks",
+    "quantum_ops",
+    "optimizer",
+    "memory"
+  ],
+  "entrypoint": "main:init_plugin",
+
+  "hooks": {
+    "on_cycle_tick": true,
+    "on_tensor_create": true,
+    "on_forward_pass": true,
+    "on_backward_pass": true
+  },
+
+  "provides": {
+    "ops": [
+      "resonance_inject",
+      "crystalline_meditate",
+      "qylinthos_awaken",
+      "transcend"
+    ],
+    "qpu_gates": [
+      "resonance_pulse"
+    ],
+    "tensor_attributes": [
+      "resonance_seed",
+      "crystal_id",
+      "transcendence_level"
+    ]
+  },
+
+  "permissions": {
+    "allow_tensor_mutation": true,
+    "allow_qpu_write": true,
+    "allow_filesystem_access": true
+  },
+
+  "plugin_format": "SFQ/1.0",
+  "senti_min_version": "2.0"
+}
