@@ -1,0 +1,9 @@
+{
+  "registry_version": "1.0",
+  "installed": [],
+  "enabled": [],
+  "disabled": [],
+  "sources": [
+    "https://sentiflow-plugins.local"
+  ]
+}
