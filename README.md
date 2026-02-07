@@ -1,0 +1,2 @@
+# Sentiflow
+Cognition core
